@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Victor Mono', monospace;
+    font-weight: 300;
+}
+
+body {
+    margin: 0%;
+}
+
+h1.title {
+    background-image: url(./resources/polygonal-background.jpg);
+    text-align: center;
+    width: auto;
+    font-family: 'Victor Mono', monospace;
+    color: hsl(210, 100%, 13%);
+    font-size: 60px;
+    padding: 40px 40px;
+    margin-bottom: 0%;
+}
+
+table {
+    border: 3px solid hsl(200, 94%, 38%);
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+th {
+    text-transform: uppercase;
+    font-weight: 700;
+    width: fit-content;
+    background-color: hsla(209, 94%, 59%, 0.2);
+    border: 3px solid hsl(200, 94%, 38%);
+    border-collapse: collapse;
+}
+
+td {
+    width: fit-content;
+    border: 3px solid hsl(200, 94%, 38%);
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+td.col-head {
+    font-family: 'Victor Mono', monospace;
+    font-weight: 700;
+    color: hsl(209, 100%, 32%);
+}
+
+div.div-table {
+    background-color: hsla(192, 77%, 41%, 0.615);
+    margin-top: 0%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
